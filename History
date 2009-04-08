@@ -1,3 +1,6 @@
+== 0.1.3 2009-04-08
+* Fixed hash
+
 == 0.1.2 2009-04-08
 * String nodes are now translated into {name => {'text' => value}}, so that attributes can be added too: {name => {'text' => value, attrib1 => v1, ...}}
 

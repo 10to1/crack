@@ -7,9 +7,8 @@ begin
     gem.name = "crack"
     gem.summary = %Q{Really simple JSON and XML parsing, ripped from Merb and Rails.}
     gem.email = "nunemaker@gmail.com"
-    gem.homepage = "http://github.com/jnunemaker/crack"
-    gem.authors = ["John Nunemaker"]
-    gem.rubyforge_project = 'crack'
+    gem.homepage = "http://github.com/10to1/crack"
+    gem.authors = ["John Nunemaker", "Tom Klaasen"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
