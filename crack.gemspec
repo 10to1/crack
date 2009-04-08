@@ -5,13 +5,13 @@ Gem::Specification.new do |s|
   s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["John Nunemaker"]
-  s.date = %q{2009-04-02}
-  s.email = %q{nunemaker@gmail.com}
+  s.authors = ["John Nunemaker", "Tom Klaasen"]
+  s.date = %q{2009-04-08}
+  s.email = %q{tom@10to1.be}
   s.extra_rdoc_files = ["README.rdoc", "LICENSE"]
   s.files = ["README.rdoc", "VERSION.yml", "lib/crack", "lib/crack/core_extensions.rb", "lib/crack/json.rb", "lib/crack/xml.rb", "lib/crack.rb", "test/crack_test.rb", "test/json_test.rb", "test/test_helper.rb", "test/xml_test.rb", "LICENSE"]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/jnunemaker/crack}
+  s.homepage = %q{http://github.com/10to1/crack}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{crack}

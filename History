@@ -1,3 +1,6 @@
+== 0.1.2 2009-04-08
+* String nodes are now translated into {name => {'text' => value}}, so that attributes can be added too: {name => {'text' => value, attrib1 => v1, ...}}
+
 == 0.1.1 2009-03-31
 * 1 minor patch
   * Parsing empty or blank xml now returns empty hash instead of raising error.

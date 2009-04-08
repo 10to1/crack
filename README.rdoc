@@ -5,9 +5,9 @@ Really simple JSON and XML parsing, ripped from Merb and Rails. The XML parser i
 = usage
   
   gem 'crack'
-  require 'crack' # for xml and json
-  require 'crack/json' # for just json
-  require 'crack/xml' # for just xml
+  require '10to1-crack' # for xml and json
+  require '10to1-crack/json' # for just json
+  require '10to1-crack/xml' # for just xml
 
 = examples
   
@@ -19,4 +19,4 @@ Really simple JSON and XML parsing, ripped from Merb and Rails. The XML parser i
 
 == Copyright
 
-Copyright (c) 2009 John Nunemaker. See LICENSE for details.
+Copyright (c) 2009 John Nunemaker and 10to1. See LICENSE for details.

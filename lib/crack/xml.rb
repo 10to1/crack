@@ -74,7 +74,9 @@ class REXMLUtilityNode #:nodoc:
     end
 
     if @text
-      return { name => typecast_value( translate_xml_entities( inner_html ) ) }
+      out = { name => {'text' => typecast_value( translate_xml_entities( inner_html ) ) } }
+      out.merge! attributes unless attributes.empty?
+      return out
     else
       #change repeating groups into an array
       groups = @children.inject({}) { |s,e| (s[e.name] ||= []) << e; s }
